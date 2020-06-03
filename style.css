@@ -1,0 +1,159 @@
+body {
+  /* background-image: url(Wikimedium-Post.jpg); */
+  /* background-position: center top; */
+  /* background-repeat: no-repeat; */
+}
+
+
+h1, h2, h3, h4, blockquote, p, ol, ul {
+  width: 700px;
+  margin: auto;
+  display: block;
+  color: black;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22px;
+  line-height: 34px;
+  margin-top: 29px;
+}
+
+i {
+  font-family: 'PT Sans', sans-serif;
+  font-style: italic;
+
+}
+
+b {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+
+h1 {
+  font-size: 40px;
+  line-height: 46px;
+  margin-top: 66px;
+}
+
+h1 + p {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 14px;
+}
+
+img {
+  display: block;
+  width: 1020px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 43px;
+}
+
+h2 + p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22px;
+  line-height: 34px;
+  margin-top: 7px;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 35px;
+}
+
+h3 + p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22px;
+  line-height: 34px;
+  margin-top: 7px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 33px;
+}
+
+h4 + p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22px;
+  line-height: 34px;
+  margin-top: 7px;
+}
+
+p + ul {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22px;
+  line-height: 34px;
+  margin-top: 29px;
+}
+
+ul {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22px;
+  line-height: 34px;
+  margin-top: 29px;
+  width: 670px;
+}
+
+li {
+  margin-top: 17px;
+
+}
+
+blockquote {
+  position: relative;
+  font-family: 'PT Sans', sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 34px;
+  margin-top: 29px;
+}
+
+blockquote::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background: black;
+  margin-left: -20px;
+
+}
+
+blockquote > p {
+  font-style: normal;
+  text-align: right;
+
+  margin-top: 10px;
+}
+
+h2 + h3 {
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 35px;
+}
+
+
+img + h2 {
+  margin-top: 82px;
+}
